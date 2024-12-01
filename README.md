@@ -53,7 +53,7 @@ The dataset includes five CSV files related to the Tokyo 2021 Olympics:
 
   ![Data Pipe Line ](images/Azure_Data_Factory_Data_Ingestion.jpg)
 
-  ![Storing Raw Data](images/images/ADLS_RawData.png)
+  ![Storing Raw Data](images/ADLS_RawData.png)
 
 ### 2. Data Transformation
 - Performed using PySpark in Azure Databricks:
