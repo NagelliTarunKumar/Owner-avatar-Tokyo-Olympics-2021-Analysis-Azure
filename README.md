@@ -61,12 +61,24 @@ The dataset includes five CSV files related to the Tokyo 2021 Olympics:
 - Transformed data was connected to Azure Synapse Analytics.
 - Tables were created in a SQL pool to enable querying and analysis.
 
-### 4. Visualization
-- Power BI integration was initiated to create interactive dashboards.
-- Planned reports will include:
-  - Medal distribution analysis.
-  - Gender-based participation trends.
-  - Team performance insights.
+## 4. Visualization
+
+Power BI integration was initiated to create interactive dashboards. Planned reports will include:
+
+- Medal distribution analysis.
+- Gender-based participation trends.
+- Team performance insights.
+
+To load data into Power BI, we need to establish a connection between Azure Synapse Analytics and Power BI:
+
+### Steps to Connect:
+1. **Open Power BI**: Launch the Power BI application and select the option to **Import Data from SQL Server**.
+![PowerBI DashBoard](images/PowerBI_Azure_Synapse_Connection_Step1.JPG)
+2. **Enter Serverless SQL Endpoint**: In the popup, enter the **Serverless SQL endpoint** of the Synapse Workspace created. This will establish the connection and load data into Power BI for visualization.
+![PowerBI DashBoard](images/PowerBI_Azure_Synapse_Connection_Step2.JPG)
+
+### Power BI Dashboard Example:
+![PowerBI DashBoard](images/PowerBI_Dashboard.JPG)
 
 ---
 
