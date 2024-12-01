@@ -51,6 +51,10 @@ The dataset includes five CSV files related to the Tokyo 2021 Olympics:
 - Raw data was ingested from a GitHub repository via ADF pipelines.
 - The data was stored in the `raw-data` folder in ADLS Gen2.
 
+  ![Data Pipe Line ](images/Azure_Data_Factory_Data_Ingestion.jpg)
+
+  ![Storing Raw Data](images/images/ADLS_RawData.png)
+
 ### 2. Data Transformation
 - Performed using PySpark in Azure Databricks:
   - Loaded CSV files into PySpark DataFrames.
@@ -73,11 +77,15 @@ To load data into Power BI, we need to establish a connection between Azure Syna
 
 ### Steps to Connect:
 1. **Open Power BI**: Launch the Power BI application and select the option to **Import Data from SQL Server**.
-![PowerBI DashBoard](images/PowerBI_Azure_Synapse_Connection_Step1.JPG)
+
+![PowerBI ](images/PowerBI_Azure_Synapse_Connection_Step1.JPG)
+
 2. **Enter Serverless SQL Endpoint**: In the popup, enter the **Serverless SQL endpoint** of the Synapse Workspace created. This will establish the connection and load data into Power BI for visualization.
-![PowerBI DashBoard](images/PowerBI_Azure_Synapse_Connection_Step2.JPG)
+ 
+![Import Data from SQL Server Pop Up](images/PowerBI_Azure_Synapse_Connection_Step2.JPG)
 
 ### Power BI Dashboard Example:
+
 ![PowerBI DashBoard](images/PowerBI_Dashboard.JPG)
 
 ---
