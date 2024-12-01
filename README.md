@@ -60,6 +60,14 @@ The dataset includes five CSV files related to the Tokyo 2021 Olympics:
   - Loaded CSV files into PySpark DataFrames.
   - Validated schemas and cleaned missing values.
   - Transformed data was written to the `transformed-data` folder in ADLS Gen2.
+ 
+    ![ Azure_DataBricks_1](images/Azure_Databricks_1.png)
+ 
+    ![Azure_DataBricks_2](images/Azure_Databricks_2.png)
+ 
+    ![Azure_DataBricks_3](images/Azure_Databricks_3.png)
+
+    ![ ADLS TransformedData](images/ADLS_TransformedData.png)
 
 ### 3. Data Warehousing
 - Transformed data was connected to Azure Synapse Analytics.
