@@ -65,6 +65,8 @@ The dataset includes five CSV files related to the Tokyo 2021 Olympics:
 - Transformed data was connected to Azure Synapse Analytics.
 - Tables were created in a SQL pool to enable querying and analysis.
 
+![ Azure Synapse Analytics.](images/ Azure Synapse Analytics.png)
+
 ## 4. Visualization
 
 Power BI integration was initiated to create interactive dashboards. Planned reports will include:
