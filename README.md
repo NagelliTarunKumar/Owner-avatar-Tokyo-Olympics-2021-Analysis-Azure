@@ -39,7 +39,7 @@ The dataset includes five CSV files related to the Tokyo 2021 Olympics:
 - A data warehousing service for querying transformed data.
 - Transformed data was imported into a SQL pool for structured storage and analysis.
 
-### 5. Power BI (Visualization in Progress)
+### 5. Power BI 
 - A business intelligence tool intended for data visualization.
 - Integrated with Synapse Analytics for dashboard creation (currently out of the project's scope).
 
