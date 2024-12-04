@@ -136,7 +136,7 @@ To load data into Power BI, we need to establish a connection between Azure Syna
 - Add feature engineering for enhanced analytics.
 
 ### Visualization Completion
-- Complete Power BI dashboards to provide actionable insights.
+- More detailed Power BI dashboards to provide actionable insights.
 - Focus on medal analysis, participation trends, and team performance.
 
 ---
