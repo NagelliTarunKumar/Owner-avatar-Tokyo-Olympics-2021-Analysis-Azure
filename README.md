@@ -42,7 +42,7 @@ The dataset includes five CSV files related to the Tokyo 2021 Olympics:
 
 ### 5. Power BI 
 - A business intelligence tool intended for data visualization.
-- Integrated with Synapse Analytics for dashboard creation (currently out of the project's scope).
+- Integrated with Synapse Analytics for dashboard creation.
 
 ---
 
